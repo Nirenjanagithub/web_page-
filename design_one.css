@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.first_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.para_one {
+  color: dimgray;
+}
+
+.para_two {
+  color: dimgray;
+}
+
+.para_three {
+  color: gray;
+}
+
+@media (max-width: 1500px) {
+  .first_page {
+    background: rgb(180, 250, 160);
+  }
+}
+@media (max-width: 992px) {
+  .first_page {
+    background: rgb(146, 246, 242);
+  }
+}
+@media (max-width: 768px) {
+  .first_page {
+    background: rgb(255, 165, 250);
+  }
+}
+@media (max-width: 576px) {
+  .first_page {
+    background: rgb(149, 149, 249);
+  }
+}
+@media (max-width: 992px) {
+  .first_page {
+    background: rgb(146, 246, 242);
+  }
+}
+@media (max-width: 768px) {
+  .first_page {
+    background: rgb(255, 165, 250);
+  }
+}
+@media (max-width: 576px) {
+  .first_page {
+    background: rgb(149, 149, 249);
+  }
+}/*# sourceMappingURL=design_one.css.map */

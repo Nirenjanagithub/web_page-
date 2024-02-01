@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.background_img {
+    background-image: url('C:\Users\niren\OneDrive\Desktop\webpage\image\images.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+.upper_nav_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.upper_nav_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: space-around;
+}
