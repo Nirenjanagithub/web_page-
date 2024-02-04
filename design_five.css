@@ -1,0 +1,391 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    background: rgb(241, 241, 241);
+    width: inherit;
+    height: 100vh;
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+    color: rgb(5, 5, 52);
+
+    
+}
+.upper_bar{
+    display: flex;
+    height: 50px;
+    min-width: fit-content;
+    background: white;
+    justify-content: right;
+    padding-left: 20px;
+    padding-right: 60px;
+    align-items: center;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.navigation_bar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(205, 205, 205, 0.2);
+    min-width: fit-content;
+    min-height:94vh;
+    padding-left: 15px;
+}
+.nav_bar_item_one{
+    display: flex;
+}
+.nav_bar_item_two{
+    display: flex;
+    
+}
+.nav_bar_item_three{
+    display: flex;
+}
+.nav_bar_item_four{
+    display: flex;
+}
+.nav_bar_item_five{
+    display: flex;
+}
+.nav_bar_item_six{
+    display: flex;
+}
+.nav_bar_item_seven{
+    display: flex;
+}
+.nav_bar_item_eight{
+    display: flex;
+}
+
+
+
+
+.nav_bar_icon {
+    display: flex;
+    row-gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+
+   
+}
+.nav_bar_text{
+    display: flex;
+    row-gap: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: smaller;
+    color: rgba(179, 182, 197, 0.733);
+}
+.nav_bar_text:hover{
+     color: rgb(5, 5, 52);;
+}
+
+.upper_bar_two{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+.upper_bar_two_box{
+    background: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    margin-right: 20px;
+
+}
+.upper_bar_two_box_two{
+    background: rgb(255, 255, 255);
+    min-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+.upper_bar_two_box_three{
+    background: rgb(236, 182, 45);
+    min-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+.upper_bar_two_headtext{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 5px;
+    font-size: small;
+}
+.upper_bar_two_subtext{
+    width: 25%;
+    font-size: small;
+}
+.upper_bar_two_search{
+    padding-right: 20px;
+    background: white;
+    width: 50%;
+    border-radius: 7px;
+    margin-right: 10px;
+
+    
+}
+.upper_bar_two_search input{
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.upper_bar_two_dates{
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;font-size: small;
+
+}
+.upper_bar_two_arrow{
+    width: 40px;
+}
+
+.nav_bar_logout{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.upper_bar_three{
+    font-size: small;
+    padding-left: 50px;
+    padding-top: 5px;
+    display: flex;
+    
+    
+}
+.column_one{
+    padding: 10px;
+    background: white;
+    min-width: fit-content;
+    height: 50px;
+}
+@media(min-width:400px) {
+    .background{
+        display: flex;
+        flex-direction: column;
+        background: rgb(241, 241, 241);
+        width: inherit;
+        height: inherit;
+        font-family: "My Custom Font" , Verdana,  Tahoma;
+        color: rgb(5, 5, 52);
+    
+        
+    }
+    .upper_bar{
+        display: flex;
+        height: 50px;
+        min-width: fit-content;
+        background: white;
+        justify-content: right;
+        padding-left: 20px;
+        padding-right: 60px;
+        align-items: center;
+    
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .navigation_bar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(205, 205, 205, 0.2);
+        min-width: fit-content;
+        min-height:94vh;
+        padding-left: 10px;
+    }
+    .nav_bar_item_one{
+        display: flex;
+    }
+    .nav_bar_item_two{
+        display: flex;
+        
+    }
+    .nav_bar_item_three{
+        display: flex;
+    }
+    .nav_bar_item_four{
+        display: flex;
+    }
+    .nav_bar_item_five{
+        display: flex;
+    }
+    .nav_bar_item_six{
+        display: flex;
+    }
+    .nav_bar_item_seven{
+        display: flex;
+    }
+    .nav_bar_item_eight{
+        display: flex;
+    }
+    
+    
+    
+    
+    .nav_bar_icon {
+        display: flex;
+        row-gap: 10px;
+        padding-left: 10px;
+        padding-right: 1opx;
+        padding-top: 10px;
+        width: 15px;
+    
+       
+    }
+    .nav_bar_text{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 5px;
+        font-size: x-small;
+        color: rgba(179, 182, 197, 0.733);
+    }
+    .nav_bar_text:hover{
+         color: rgb(5, 5, 52);;
+    }
+    
+    .upper_bar_two{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        height: fit-content;
+        width: 100%;
+        padding-bottom: 10px;
+        
+        
+        
+    }
+    
+    .upper_bar_two_box{
+        background: rgb(255, 255, 255);
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        border-radius: 7px;
+        margin-right: 20px;
+    
+    }
+    .upper_bar_two_box_two{
+        background: rgb(255, 255, 255);
+        min-width: fit-content;
+        display: flex;
+        flex-direction: row;
+        border-radius: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    .upper_bar_two_box_three{
+        background: rgb(236, 182, 45);
+        min-width: fit-content;
+        display: flex;
+        flex-direction: row;
+        border-radius: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: small;
+        font-weight: bold;
+    }
+    .upper_bar_two_headtext{
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 5px;
+        font-size: x-small;
+    }
+    .upper_bar_two_subtext{
+        width: 25%;
+        font-size: x-small;
+    }
+    .upper_bar_two_search{
+        padding-right: 20px;
+        background: white;
+        width: 50%;
+        border-radius: 7px;
+        margin-right: 10px;
+    
+        
+    }
+    .upper_bar_two_search input{
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 7px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .upper_bar_two_dates{
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 30px;font-size: x-small;
+    
+    }
+    .upper_bar_two_arrow{
+        width: 40px;
+    }
+    
+    .nav_bar_logout{
+        margin-top: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+    }
+    .upper_bar_three{
+        font-size: small;
+        padding-left: 50px;
+        padding-top: 5px;
+        display: flex;
+        
+        
+    }
+    .column_one{
+        padding: 10px;
+        background: white;
+        min-width: fit-content;
+        height: 50px;
+    }
+
+    
+}
