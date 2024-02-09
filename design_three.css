@@ -3,20 +3,109 @@
     padding: 0%;
 }
 .background_img {
-    background-image: url('C:\Users\niren\OneDrive\Desktop\webpage\image\images.jpg');
+    content: '';
+    background-image: url(images\ \(1\).jpg);
     background-size: cover;
+    background-position: center;
     width: 100%;
-    height: auto;
+    height:766px;
+    opacity: 0.75;
 
 }
+
+
+.upper_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
 .upper_nav_left{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
 }
 .upper_nav_right{
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    justify-content: space-around;
+    column-gap: 15px;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+}
+.center_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 280px;
+}
+.center_text p{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center_text H1{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width:768px){
+    .background_img {
+        content: '';
+        background-image: url(images\ \(1\).jpg);
+        background-size: cover;
+        width: 100%;
+        height:100vh;
+        opacity: 0.75;
+    
+    }
+ 
+    
+    .upper_nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    
+    .upper_nav_left{
+        align-items: center;
+        font-weight: bolder;
+        font-size: xx-large;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .upper_nav_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .center_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+    .center_text p{
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    .center_text H1{
+        font-size:xx-large;
+        font-weight: bolder;
+        color: rgb(15, 16, 16);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    
 }

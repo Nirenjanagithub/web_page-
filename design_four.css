@@ -2,52 +2,116 @@
     margin: 0%;
     padding: 0%;
 }
+@font-face {
+    font-family: "My Custom Font";
+    src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
+}
+
 
 .background{
     display: flex;
+    flex-direction:column ;
     background: rgb(241, 241, 241);
     width: 100%;
     height: 100vh;
+    color: rgb(5, 5, 52);
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo{
+    display: flex;
+    height: 160px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
 }
 .main_box{
     display: flex;
     flex-direction: column;
     background: white;
-    max-height:600px;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 7px;
+    min-height:405px;
+    min-width: fit-content;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 17px;
+    margin-top: 30px;
+
 
     
 }
 .main_box_content{
     display: flex;
     flex-direction: column;
+    color: rgb(14, 14, 57);
+    padding-top: 10px;
+    height: 20px;
     
+}
+.main_box_content_top{
+    font-size:30px;
+
 }
 .main_box_content_left{
     align-self: flex-start;
-
+    background: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 120px;
+    color: rgba(180, 180, 210, 0.705);
+    font-size: smaller;
 }
+.main_box_content_left_input{
+    border: 1px solid rgba(161, 161, 161, 0.507);
+    align-self: flex-start;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 120px;
+    color: rgba(238, 228, 228, 0.568);
+}
+
 .main_box_content_right{
     align-self: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: smaller;
+    color: rgba(187, 196, 196, 0.793);
 }
 .main_box_content_login button{
-    background: rgb(255, 179, 26);
+    background: rgba(255, 179, 26, 0.549);
     border-radius: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 50px;
-    padding-right: 50px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 135px;
+    padding-right: 135px; 
+    border: 0cap;
 }
 .main_box_content_login{
     align-self: center;
+}
+.input_box_1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.input_box_2{
+    display: flex;
+    flex-direction: column;
 
 }
+.input_box{
+    padding-top: 30px;
+    font-size: smaller;
+    color: rgba(186, 183, 183, 0.786);
+}
+::placeholder{
+    color: rgba(186, 183, 183, 0.611);
+}
 
+
+    

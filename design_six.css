@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 25%;
+    max-width: 25%;
+    border: 1px solid gainsboro;
+    background: rgba(64, 224, 208, 0.233);
+}
+.nav-bar-1{
+    display: flex;
+    min-height: 50px;
+    background: rgba(108, 162, 162, 0.681);
+}
+.nav-bar-2{
+    display: flex;
+    min-height: 50px;
+    background: rgba(108, 162, 162, 0.681);
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    min-width: 75%;
+    max-width: 75%;
+    min-height: 100vh;
+    background: rgba(180, 243, 236, 0.451);
+}
+.nav-bar-contents-left{
+    padding-left: 5px;
+    padding-top: 3px;
+    display: flex;
+}
+.nav-bar-contents-right{
+    display: flex;
+    justify-content: end;
+}
+.nav-bar-contents{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-search{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+.nav-bar-search input{
+    border: 1px solid;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(108, 162, 162, 0.401);
+}
+.nav-bar-chat-1{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar-chat-icon{
+    max-width: 55px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.nav-bar-chat-text{
+    padding-right: 50px;
+}
+.nav-bar-chat h1{
+    font-size: large;
+}
+.nav-bar-chat label{
+    font-size: small;
+}
+.nav-bar-chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.nav-bar-chat-2{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.nav-bar-chat-3{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.nav-bar-chat-4{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.nav-bar-chat-5{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.nav-bar-chat-6{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.nav-bar-chat-7{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar-chat-8{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar-chat-9{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar-chat-2 .nav-bar-chat-text{
+    padding-right: 86px;
+}
+.nav-bar-chat-3 .nav-bar-chat-text{
+    padding-right: 84px;
+}
+.nav-bar-chat-4 .nav-bar-chat-text{
+    padding-right: 83px;
+}
+.nav-bar-chat-5 .nav-bar-chat-text{
+    padding-right: 33px;
+}
+.nav-bar-chat-6 .nav-bar-chat-text{
+    padding-right: 113px;
+}
+.nav-bar-chat-7 .nav-bar-chat-text{
+    padding-right: 98px;
+}
+.nav-bar-chat-8 .nav-bar-chat-text{
+    padding-right: 121px;
+}
+.nav-bar-chat-9 .nav-bar-chat-text{
+    padding-right: 113px;
+}
+.nav-bar-chat-1 .nav-bar-chat-text{
+    padding-right: 63px;
+}
+.nav-bar-2-left{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-2-left label{
+    padding-left: 5px;
+}
+.nav-bar-2-right{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    
+}
+.column-2-contents{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 15px;
+}
+.time-one{
+    height: 23px;
+    background: white;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    margin-left: 476px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.chat-1{
+    padding-top: 20px;
+    display: flex;
+
+}
+.convo{
+    border: 1px solid;
+    border-radius: 7px;
+
+}
+.chat-1 img{
+    padding-right: 10px;
+}
+.chat-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.column-2-search input{
+    padding-left: 10px;
+    padding-right: 710px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 17px;
+    background: whitesmoke;
+
+
+}
+.column-2-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center
+}
+.nav-bar-3{
+    margin-top: 250px;
+    display: flex;
+    min-height: 50px;
+    background: rgba(108, 162, 162, 0.681);
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    justify-content: center;
+
+}
