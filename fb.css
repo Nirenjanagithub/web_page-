@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
+}
+
+.upper_bar{
+    display: flex;
+    min-height: 80px;
+    min-width: inherit;
+    border: 1px solid;
+    background-color: rgb(63, 63, 163);
+    color: white;
+    justify-content: space-between;
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+
+
+}
+.upper_bar_right input{
+    background: rgba(237, 244, 141, 0.805);
+}
+.upper_bar_left{
+    display: flex;
+    padding-left: 140px;
+    flex-direction: row;
+    padding-top: 30px;
+    font-size: large;
+
+}
+.upper_bar_right-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+
+}
+.upper_bar_right-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.upper_bar_right{
+    display: flex;
+    flex-direction: row;
+    font-size: x-small;
+    align-items: center;
+    padding-top: 15px;
+}
+.upper_bar_right span{
+    color: rgba(255, 255, 255, 0.463);
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.login{
+    padding-right: 150px;
+}
+button{
+    background-color: rgba(112, 112, 193, 0.515);
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.background{
+    background-color: rgba(208, 208, 212, 0.4);
+    min-height: 650px;
+    min-width: inherit;
+    display: flex;
+    flex-direction: row;
+    font-family: "My Custom Font" , Verdana,  Tahoma;
+
+}
+.box-left{
+    min-height: 70px;
+    max-height: 164px;
+    min-width: 55%;
+    display: flex;
+}
+.head-text{
+    padding-left: 150px;
+    padding-top: 70px;
+    min-height: 70px;
+    max-height: 70px;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column
+}
+.sub-text-1{
+    padding-top: 50px;
+    padding-left: 87px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.sub-text-2{
+    padding-top: 30px;
+    padding-left: 87px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.sub-text-1 label{
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.sub-text-2 label{
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.box-right{
+    display: flex;
+    flex-direction: column;
+}
+.head-text-right{
+    display: flex;
+    flex-direction: column;
+}
+.upper_bar_right label{
+    font-size: x-small;
+    font-weight: lighter;
+    padding-bottom: 3px;
+
+}
+.head-text-right h1{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+.head-text-right label{
+    padding-left: 10px;
+    font-size: large;
+
+}
+.head-text-right input{
+    padding-left: 10px;
+    display:flex ;
+    flex-direction: row;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: medium;
+}
+::placeholder{
+    display: flex;
+
+}
+.input-box{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.input-box-1{
+    padding-right: 10px;
+}
+.input-box-3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+}           
+.date{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.birthday{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+select{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 10%;
+    border-radius: 3px;
+}
+.date label{
+    font-size: xx-small;
+    color: rgb(79, 79, 163);
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.gen-female{
+    display: flex;
+    flex-direction: row;
+}
+.gen-male{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.terms label{ 
+    font-size:x-small;
+}
+.terms span{
+    color: rgba(91, 91, 176, 0.714);
+    font-size: x-small;
+}
+.terms{
+    display: flex;
+    flex-direction: column;
+}
+.signup button{
+    background: rgb(53, 151, 11);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.signup{
+    padding-top:15px ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.line{
+    padding-left: 12px; 
+
+}
+.line span{
+    color: rgba(39, 39, 118, 0.712);
+}
+.line label{
+    
+    font-size: small;
+    font-weight: normal;
+}
