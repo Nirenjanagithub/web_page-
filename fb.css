@@ -6,7 +6,15 @@
     font-family: "My Custom Font";
     src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
 }
-
+body{
+   min-width: max-content;
+}
+html{
+    scroll-behavior: smooth;
+}
+.create-new-acc{
+    visibility: hidden;
+}
 .upper_bar{
     display: flex;
     min-height: 80px;
@@ -56,6 +64,7 @@
     font-size: x-small;
     align-items: center;
     padding-top: 15px;
+    padding-left: 530px;
 }
 .upper_bar_right span{
     color: rgba(255, 255, 255, 0.463);
@@ -64,7 +73,7 @@
 }
 
 .login{
-    padding-right: 150px;
+    padding-right: 10px;
 }
 button{
     background-color: rgba(112, 112, 193, 0.515);
@@ -252,4 +261,141 @@ select{
     
     font-size: small;
     font-weight: normal;
+}
+@media  (max-width:600px) {
+    .background{
+        background-color: rgba(208, 208, 212, 0.4);
+        min-height: 650px;
+        min-width: inherit;
+        display: flex;
+        flex-direction: column;
+        font-family: "My Custom Font" , Verdana,  Tahoma;
+    }
+    
+    .head-text{
+        padding-left: 20px;
+        padding-top: 70px;
+        min-height: 70px;
+        max-height: 70px;
+        min-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .head-text h2{
+       font-size:22px;
+    }
+
+    .sub-text-1{
+        padding-top:25px;
+        padding-left: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+    
+    
+    }
+    .sub-text-2{
+        padding-top: 30px;
+        padding-left: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 15px;
+    
+    
+    }
+   
+    .sub-text-1 label{
+        font-size: 15px;
+        font-weight: lighter;
+        padding-left: 12px;
+    }
+    .sub-text-2 label{
+        font-size: 15px;
+        font-weight: lighter;
+        padding-left: 12px;
+    }
+    .box-left{
+        min-height: 345px;
+        max-height: 100px;
+        min-width: 100%;
+        display: flex;
+    }
+    .upper_bar{
+        display: flex;
+        flex-direction: column;
+        font-family: "My Custom Font" , Verdana,  Tahoma;
+        background: white;
+    
+    
+    }
+    .upper_bar_left{
+        display: flex;
+        padding-left: 0%;
+        flex-direction: column;
+        padding-top: 0%;
+        align-items: center;
+        font-size: large;
+        background-color: rgb(63, 63, 163);
+
+    
+    }
+    .upper_bar_right{
+        display: flex;
+        flex-direction: column;
+        font-size: x-small;
+        align-items: center;
+        padding-top: 200px;
+        color: black;
+        background-color: rgba(208, 208, 212, 0.4);
+        padding-bottom: 200px;
+        padding-left: 0%;
+
+    }
+    .login{
+        padding:0%;
+}
+button{
+    display: flex;
+    align-items: center;
+
+}
+.upper_bar_right span{
+    color: rgb(26, 50, 202);
+   
+}
+.upper_bar_right input{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background: rgba(237, 244, 141, 0.747);
+
+}
+.upper_bar_right-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+
+
+}
+.upper_bar_right-2{
+    padding-bottom: 20px;
+}
+.create-new-acc{
+    padding-top: 20px;
+    visibility: inherit;
+}
+.create-new-acc button{
+    background: rgb(45, 153, 24);
+    color: white;
+}
+.create-new-acc a{
+    background: rgba(45, 170, 20, 0.873);
+    color: white;
+}
 }

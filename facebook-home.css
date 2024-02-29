@@ -1,0 +1,820 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "My Custom Font",Verdana , Tahoma;
+
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url("C:\Users\niren\Downloads\transfonter.org-20240110-105226 (1)") format("true type") ;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    min-height: 40px;
+    max-height: 55px;
+    max-width:100%;
+    min-width: 100%;
+    justify-content: space-between;
+    font-family: "My Custom Font",Verdana , Tahoma;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    min-width: 20%;
+    max-width: 10%;
+    align-items: center;
+    padding-left: 10px;
+    font-family: "My Custom Font",Verdana , Tahoma;
+
+}
+.left img{
+    min-width: 11%;
+    max-width: 11%;
+    min-height: 35px;
+    max-height: 35px;
+    padding-right: 5px;
+}
+.left input{
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right:20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: rgba(200, 200, 200, 0.51);
+    border: 1px solid rgba(200, 200, 200, 0.51);
+
+}
+::placeholder{
+    color: rgba(128, 127, 127, 0.855);
+}
+.icon-home{
+    min-width: 10%;
+    max-width: 15%;
+}
+.icon-client{
+    min-width: 10%;
+    max-width: 15%;
+}.icon-house{
+    min-width: 10%;
+    max-width: 15%;
+}.icon-reel{
+    min-width: 10%;
+    max-width: 15%;
+}.icon-games{
+    min-width: 10%;
+    max-width: 15%;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    min-width: 53%;
+    max-width: 30%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    min-width: 15%;
+    max-width: 15%;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    
+}
+.icon-menu{
+    min-width: 15%;
+    max-width: 10%;
+
+}
+.icon-msg{
+    min-width: 15%;
+    max-width: 10%;
+
+}
+.icon-noti{
+    min-width: 15%;
+    max-width: 10%;
+
+}
+.icon-profile{
+
+    min-width: 20%;
+    max-width: 5%;
+}
+.icon-profile img{
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 75%;
+}
+section{
+    background: rgba(192, 192, 192, 0.319);
+    min-height: 660px;
+    max-height: 695px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    max-width: 26%;
+    min-height: 660px;
+    row-gap: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.nav-1 img{
+    border-radius: 50%;
+    padding-right: 10px;
+
+}
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+
+}
+.nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-2 img{
+    padding-right: 10px;
+}
+.nav-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.nav-3 img{
+    padding-right: 10px;
+}
+.nav-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-4 img{
+    padding-right: 10px;
+}
+.nav-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.nav-5 img{
+    padding-right: 10px;
+}
+.nav-6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-6 img{
+    padding-right: 10px;
+}
+.nav-7{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-7 img{
+    padding-right: 10px;
+}
+.nav-line{
+    padding-top: 10px;
+}
+.nav-line label{
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+.nav-8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-8 img{
+    padding-right: 5px;
+}
+.nav-9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.nav-9 img{
+    padding-right: 5px;
+}.nav-10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.nav-10 img{
+    padding-right: 5px;
+}.nav-11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-11 img{
+    padding-right: 5px;
+}
+.nav-12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-12 img{
+    padding-right: 5px;
+
+
+}
+
+.first-row{
+    min-width: 110px;
+    min-height: 220px;
+    max-width: 50px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+}
+.first-row img{
+    min-height: 210px;
+    min-width: 110px;
+    border-radius: 7px;
+}
+.second-row{
+    min-width: 110px;
+    min-height: 220px;
+    max-width: 50px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+}
+.second-row img{
+    min-height: 210px;
+    min-width: 110px;
+    border-radius: 7px;
+}
+.third-row{
+    min-width: 110px;
+    min-height: 220px;
+    max-width: 50px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+}
+.third-row img{
+    min-height: 210px;
+    min-width: 110px;
+    border-radius: 7px;
+}
+.fourth-row{
+    min-width: 110px;
+    min-height: 220px;
+    max-width: 50px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+}
+.fourth-row img{
+    min-height: 210px;
+    min-width: 110px;
+    border-radius: 7px;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding-top: 10px;
+    max-width: max-content;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    row-gap: 15px;
+    min-width: 20%;
+    max-width:45%;
+    padding-right: 20px;
+}
+
+.row-2{
+    min-width: 30px;
+    max-width: 469px;
+    min-height: 110px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-row-2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    
+
+}
+.first-row-2 input{
+    min-width: 70%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background: rgba(189, 187, 187, 0.318);
+    border: 1px solid rgba(189, 187, 187, 0.318);
+
+    
+}
+.first-row-2 img{
+    border-radius: 50%;
+    padding-right: 10px;
+    
+}
+.first-row-2-line{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.first-row-2-icon{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 10px;
+    color: gray;
+    font-weight: bold;
+ 
+}
+.video-icon-2{
+    min-width: 10%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3px;
+}
+.photos-icon-2{
+    min-width: 10%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3px;
+
+}
+.smiley-icon-2{
+    max-width: 50%;
+    min-width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3px;
+
+}
+.row-3{
+    min-width: 100px;
+    max-width: 470px;
+    min-height: 250px;
+    border-radius: 7px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+  
+}
+.caption{
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.662);
+}
+.profile{
+    border-radius: 50%;
+    min-width: 5%;
+    max-width: 10%;
+    min-height: 30px;
+    max-height: 30px;
+    padding-right: 10px;
+
+
+}
+.first-row-3-contents{
+    display: flex;
+    flex-direction: column;
+  
+}
+.first-row-3-contents label{
+    
+    padding-top: 2px;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+
+  
+}
+.time label{
+    font-size: 9px;
+    color: gray;
+
+}
+.first-row-3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.landscape{
+   min-height: 200px;
+}
+.nav-right{
+    max-width: 25%;
+    min-width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    row-gap: 10px;
+    padding-top: 10px;
+
+}
+.nav-right label{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.973);
+
+}
+.add-1{
+display: flex;
+flex-direction: column;
+min-width: 80%;
+max-width: 60%;
+row-gap: 10px;
+
+}
+.add-left{
+    min-width: 100%;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.add-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 10px;
+}
+.add-left img{
+    border-radius: 7px;
+}
+.add-text label{
+    font-size: 8px;
+    color:gray;
+}
+@media screen and (max-width:500px) {
+   
+    
+    .navigation{
+        visibility: hidden;
+        max-width: 0%;
+        min-width: 0%;
+        padding: 0%;
+    }
+    .center{
+        visibility: hidden;
+        max-width: 0%;
+        min-width: 0%;
+    }
+    .left{
+        min-width: 19%;
+        padding-right: 15px;
+    }
+   
+    .left img{
+        min-width: 41%;
+        max-width: 10%;
+        min-height: 10px;
+        padding-right: 10px;
+    }
+    .left input{
+        max-width: 40%;
+        border-radius: 30px;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       max-width: 91%;
+       min-width:84%;
+    }
+    .right{
+        min-width: 70%;
+    }
+    .main-page{
+        max-width:200%;
+        min-width: 83%;
+        padding: 0%;
+    }
+    .nav-right{
+        visibility: hidden;
+        min-width: 0%;
+        max-width: 0%;
+        padding: 0%;
+    }
+    .icon-menu{
+        min-width: 10%;
+        max-width: 10%;
+    
+    }
+    .icon-msg{
+        min-width: 10%;
+        max-width: 10%;
+    
+    }
+    .icon-noti{
+        min-width: 10%;
+        max-width: 10%;
+    
+    }
+    .icon-profile{
+    
+        min-width: 16%;
+        max-width: 5%;
+    }
+    .icon-profile img{
+        border-radius: 50%;
+        min-height: 20px;
+        min-width: 65%;
+    }
+    .nav-1 img{
+        border-radius: 50%;
+        padding-right:0%;
+    
+    }
+    .nav-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 0px;
+    
+    }
+    .nav-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+    
+    }
+    .nav-2 img{
+        padding-right: 0px;
+    }
+    .nav-3{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+        
+    }
+    .nav-3 img{
+        padding-right: 0px;
+    }
+    .nav-4{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    }
+    .nav-4 img{
+        padding-right: 0px;
+    }
+    .nav-5{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    
+    }
+    .nav-5 img{
+        padding-right: 0px;
+    }
+    .nav-6{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    }
+    .nav-6 img{
+        padding-right: 0px;
+    }
+    .nav-7{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    }
+    .nav-7 img{
+        padding-right: 0px;
+    }
+    .nav-line{
+        padding-top:0px;
+    }
+    .nav-line label{
+        font-size: 0px;
+        color: transparent;
+    }
+    .nav-8{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    }
+    .nav-8 img{
+        padding-right: 0px;
+    }
+    .nav-9{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+        
+    
+    }
+    .nav-9 img{
+        padding-right: 0px;
+    }.nav-10{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    
+    }
+    .nav-10 img{
+        padding-right: 0px;
+    }.nav-11{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    
+    }
+    .nav-11 img{
+        padding-right: 0px;
+    }
+    .nav-12{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+    
+    }
+    .nav-12 img{
+        padding-right: px;
+    
+    
+    }
+    .row-1{
+        column-gap: 77px;
+    }
+    .first-row{
+        min-width: 90px;
+        min-height: 190px;
+        max-width: 50px;
+        border-radius: 7px;
+        background: white;
+        display: flex;
+    }
+    .first-row img{
+        min-height: 260px;
+        min-width: 160px;
+        border-radius: 7px;
+    }
+    .second-row{
+        min-width: 90px;
+        min-height: 18px;
+        max-width: 50px;
+        border-radius: 7px;
+        background: white;
+        display: flex;
+    }
+    .second-row img{
+        min-height: 260px;
+        min-width: 160px;
+        border-radius: 7px;
+    }
+    .third-row{
+        min-width: 90px;
+        min-height: 180px;
+        max-width: 50px;
+        border-radius: 7px;
+        background: white;
+        display: flex;
+        
+    }
+    .third-row img{
+        min-height: 260px;
+        min-width: 160px;
+        border-radius: 7px;
+    
+    }
+    .fourth-row{
+        min-width: 90px;
+        min-height: 180px;
+        max-width: 50px;
+        border-radius: 7px;
+        background: white;
+        display: flex;
+        visibility: hidden;
+      
+    }
+    .fourth-row img{
+        
+        min-height: 260px;
+        min-width:130px;
+        border-radius: 7px;
+        visibility: hidden;
+    }
+    .smiley-icon-2{
+        visibility: hidden;
+        min-width: 0%;
+    }
+   
+    .video-icon-2 img{
+        min-width: 44%;
+    }      
+    .photos-icon-2 img{
+        min-width:44%;
+    }    
+    .video-icon-2{
+        padding-right: 174px;
+    } 
+    .video-icon-2 label{
+        min-width: 90%;
+    }
+    section{
+        min-height:100% ;
+        max-height: 100%;
+    }
+    body{
+        min-height: 100%;
+        min-width: 111%;
+    }
+    .row-3{
+        max-width: 533px;
+    }
+    .row-2{
+        max-width: 521px;
+        padding-top: 15px;
+    }
+    .first-row-2 img{
+        max-width: 10%;
+    }
+    .first-row-2-icon{
+        max-width: 96%;
+    }
+}
